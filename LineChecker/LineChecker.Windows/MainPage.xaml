@@ -9,41 +9,9 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBlock Name="NumberTitle" HorizontalAlignment="Left" Height="14" Margin="31,128,0,0" TextWrapping="Wrap" Text="Number" VerticalAlignment="Top" Width="86"/>
-        <TextBlock Name="Number1" HorizontalAlignment="Left" Height="14" Margin="31,149,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="86"/>
-        <TextBlock Name="Number2" HorizontalAlignment="Left" Height="14" Margin="31,168,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="86"/>
         <TextBlock Name="TeamTitle" HorizontalAlignment="Left" Height="14" Margin="122,128,0,0" TextWrapping="Wrap" Text="Team" VerticalAlignment="Top" Width="196"/>
-        <TextBlock Name="Team1" HorizontalAlignment="Left" Height="14" Margin="122,149,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="196"/>
-        <TextBlock Name="Team2" HorizontalAlignment="Left" Height="14" Margin="122,168,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="196"/>
         <TextBlock Name="LineTitle" HorizontalAlignment="Left" Height="14" Margin="323,128,0,0" TextWrapping="Wrap" Text="Line" VerticalAlignment="Top" Width="198"/>
-        <TextBlock Name="Line1" HorizontalAlignment="Left" Height="14" Margin="323,149,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="198"/>
-        <TextBlock Name="Line2" HorizontalAlignment="Left" Height="14" Margin="323,168,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="198"/>
         <TextBlock Name="PercentageTitle" HorizontalAlignment="Left" Height="14" Margin="526,128,0,0" TextWrapping="Wrap" Text="Percentage" VerticalAlignment="Top" Width="196"/>
-        <TextBlock Name="Percentage1" HorizontalAlignment="Left" Height="14" Margin="526,149,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="196"/>
-        <TextBlock Name="Percentage2" HorizontalAlignment="Left" Height="14" Margin="526,168,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="196"/>
-        <TextBlock x:Name="Number3" HorizontalAlignment="Left" Height="14" Margin="31,199,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="86"/>
-        <TextBlock x:Name="Number4" HorizontalAlignment="Left" Height="14" Margin="31,218,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="86"/>
-        <TextBlock x:Name="Team3" HorizontalAlignment="Left" Height="14" Margin="122,199,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="196"/>
-        <TextBlock x:Name="Team4" HorizontalAlignment="Left" Height="14" Margin="122,218,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="196"/>
-        <TextBlock x:Name="Line3" HorizontalAlignment="Left" Height="14" Margin="323,199,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="198"/>
-        <TextBlock x:Name="Line4" HorizontalAlignment="Left" Height="14" Margin="323,218,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="198"/>
-        <TextBlock x:Name="Percentage3" HorizontalAlignment="Left" Height="14" Margin="526,199,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="196"/>
-        <TextBlock x:Name="Percentage4" HorizontalAlignment="Left" Height="14" Margin="526,218,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="196"/>
-        <TextBlock x:Name="Number5" HorizontalAlignment="Left" Height="14" Margin="31,249,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="86"/>
-        <TextBlock x:Name="Number6" HorizontalAlignment="Left" Height="14" Margin="31,268,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="86"/>
-        <TextBlock x:Name="Team5" HorizontalAlignment="Left" Height="14" Margin="122,249,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="196"/>
-        <TextBlock x:Name="Team6" HorizontalAlignment="Left" Height="14" Margin="122,268,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="196"/>
-        <TextBlock x:Name="Line5" HorizontalAlignment="Left" Height="14" Margin="323,249,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="198"/>
-        <TextBlock x:Name="Line6" HorizontalAlignment="Left" Height="14" Margin="323,268,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="198"/>
-        <TextBlock x:Name="Percentage5" HorizontalAlignment="Left" Height="14" Margin="526,249,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="196"/>
-        <TextBlock x:Name="Percentage6" HorizontalAlignment="Left" Height="14" Margin="526,268,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="196"/>
-        <TextBlock x:Name="Number7" HorizontalAlignment="Left" Height="14" Margin="31,299,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="86"/>
-        <TextBlock x:Name="Number8" HorizontalAlignment="Left" Height="14" Margin="31,318,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="86"/>
-        <TextBlock x:Name="Team7" HorizontalAlignment="Left" Height="14" Margin="122,299,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="196"/>
-        <TextBlock x:Name="Team8" HorizontalAlignment="Left" Height="14" Margin="122,318,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="196"/>
-        <TextBlock x:Name="Line7" HorizontalAlignment="Left" Height="14" Margin="323,299,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="198"/>
-        <TextBlock x:Name="Line8" HorizontalAlignment="Left" Height="14" Margin="323,318,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="198"/>
-        <TextBlock x:Name="Percentage7" HorizontalAlignment="Left" Height="14" Margin="526,299,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="196"/>
-        <TextBlock x:Name="Percentage8" HorizontalAlignment="Left" Height="14" Margin="526,318,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="196"/>
 
     </Grid>
 </Page>

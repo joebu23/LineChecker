@@ -1,8 +1,10 @@
-﻿using System;
+﻿using LineChecker.Services;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -24,18 +26,16 @@ namespace LineChecker
     {
         public MainPage()
         {
-            var textBox = new TextBlock();
-            textBox.Text = "1 is the number";
-            textBox.Name = "1box";
-            
-
             this.InitializeComponent();
 
+            var test = GetPercentagesFromService();
 
-            
-           
-            
+        }
 
+        public async Task GetPercentagesFromService()
+        {
+            var lineFinder = new LineFinder();
+            await lineFinder.GetPercentages();
         }
 
 
