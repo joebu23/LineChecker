@@ -24,12 +24,16 @@ namespace LineChecker
     {
         public MainPage()
         {
-            this.InitializeComponent();
-
-
             var textBox = new TextBlock();
             textBox.Text = "1 is the number";
             textBox.Name = "1box";
+            
+
+            this.InitializeComponent();
+
+
+            
+           
             
 
         }
